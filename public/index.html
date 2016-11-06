@@ -22,7 +22,7 @@
     <div class="heading">
       <h1 class="title">2048</h1>
       <div class="scores-container">
-        <div class="score-container">0</div>
+        <div id="score-container" class="score-container">0</div>
       </div>
     </div>
 
@@ -80,9 +80,12 @@
       <p class="save-your-score">
         Enter your name to save your score!
       </p>
-      <input type="text" id="enter-score"><button id="save-button">Save</button>
+      <input type="text" id="enter-score"><button type="button" id="save-button">Save</button>
       <hr>
-
+	<div class="container-wide">
+	Ranking:<br>
+          <div id="scores"></div>
+	</div>
       <br><br>
     </div>
 
@@ -105,6 +108,7 @@
         </p>
     </div>
 
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <script src="js/bind_polyfill.js"></script>
   <script src="js/classlist_polyfill.js"></script>
   <script src="js/animframe_polyfill.js"></script>

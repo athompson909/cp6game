@@ -184,11 +184,66 @@ GameManager.prototype.move = function (direction) {
 
     if (!this.movesAvailable()) {
       this.over = true; // Game over!
-    }
 
+    }
     this.actuate();
   }
 };
+
+
+
+
+
+  //GET FUNCTION
+$(document).ready(function(){
+    $("#save-button").click(function(){
+        console.log("save button called");
+        var myobj = {Name:$("#enter-score").val(), Score:$("#score-container").val()};
+        jobj = JSON.stringify(myobj);
+        $("#json").text(jobj);
+
+        var url = "score";
+        $.ajax({
+                url:url,
+                type: "POST",
+                data: jobj,
+                contentType: "application/json; charset=utf-8",
+                success: function(data,textStatus) {
+                        $("#done").html(textStatus);
+                }
+        })
+
+        //CALL POST FUNCTION
+              $.getJSON('score', function(data) {
+                    console.log(data);
+		    
+                    var everything = "<ol>";
+                    for(var score in data) {
+                      // com = data[score];
+		       
+			// sort by value
+		       data.sort(function (a, b) {
+			  if (a.value > b.value) {
+			    return 1;
+			  }
+			  if (a.value < b.value) {
+			    return -1;
+			  }
+			  // a must be equal to b
+			  return 0;
+		       });
+		       com = data[score];
+                       everything += "<li> Name: " + com.Name + "  Score: " + com.Score + "</li>";
+                    }
+                    everything += "</ol>";
+                    $("#scores").html(everything);//scores
+              })
+
+    });
+
+});
+
+
 
 // Get the vector representing the chosen direction
 GameManager.prototype.getVector = function (direction) {
