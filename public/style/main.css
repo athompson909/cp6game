@@ -768,7 +768,7 @@ hr {
   }
 
   .game-over-thing {
-    display: none;
+    /*display: none;*/
     font-size: 24px;
   }
 
@@ -784,6 +784,10 @@ hr {
     margin-left: 6px;
     font-size: 20px;
 
+  }
+
+  .save-your-score {
+    display: none;
   }
 
   .game-over-thing input {

@@ -1,3 +1,5 @@
+var localScore = 0;
+
 function GameManager(size, InputManager, Actuator, StorageManager) {
   this.size           = size; // Size of the grid
   this.inputManager   = new InputManager;
@@ -88,6 +90,7 @@ GameManager.prototype.actuate = function () {
     this.storageManager.setGameState(this.serialize());
   }
 
+  localScore = this.score;//remembers the score
   this.actuator.actuate(this.grid, {
     score:      this.score,
     over:       this.over,
@@ -184,7 +187,7 @@ GameManager.prototype.move = function (direction) {
 
     if (!this.movesAvailable()) {
       this.over = true; // Game over!
-
+      alreadyClicked = false;
     }
     this.actuate();
   }
@@ -192,13 +195,15 @@ GameManager.prototype.move = function (direction) {
 
 
 
-
+var alreadyClicked = false;
 
   //GET FUNCTION
 $(document).ready(function(){
     $("#save-button").click(function(){
-        console.log("save button called");
-        var myobj = {Name:$("#enter-score").val(), Score:$("#score-container").val()};
+
+      console.log("save button called");
+      if(!alreadyClicked) {
+        var myobj = {Name:$("#enter-score").val(), Score:localScore};
         jobj = JSON.stringify(myobj);
         $("#json").text(jobj);
 
@@ -212,34 +217,41 @@ $(document).ready(function(){
                         $("#done").html(textStatus);
                 }
         })
-
-        //CALL POST FUNCTION
-              $.getJSON('score', function(data) {
-                    console.log(data);
-		    
-                    var everything = "<ol>";
-                    for(var score in data) {
-                      // com = data[score];
-		       
-			// sort by value
-		       data.sort(function (a, b) {
-			  if (a.value > b.value) {
-			    return 1;
-			  }
-			  if (a.value < b.value) {
-			    return -1;
-			  }
-			  // a must be equal to b
-			  return 0;
-		       });
-		       com = data[score];
-                       everything += "<li> Name: " + com.Name + "  Score: " + com.Score + "</li>";
-                    }
-                    everything += "</ol>";
-                    $("#scores").html(everything);//scores
-              })
+        showScores();
+        alreadyClicked = true;
+      }
 
     });
+
+    function showScores() {
+    //CALL POST FUNCTION
+          $.getJSON('score', function(data) {
+                console.log(data);
+
+                var everything = "<ol>";
+                for(var score in data) {
+                  // com = data[score];
+
+  // sort by value
+       data.sort(function (a, b) {
+    if (a.value > b.value) {
+      return 1;
+    }
+    if (a.value < b.value) {
+      return -1;
+    }
+    // a must be equal to b
+    return 0;
+       });
+       com = data[score];
+                   everything += "<li> Name: " + com.Name + ",  Score: " + com.Score + "</li>";
+                }
+                everything += "</ol>";
+                $("#scores").html(everything);//scores
+          })
+    }
+
+    showScores();
 
 });
 

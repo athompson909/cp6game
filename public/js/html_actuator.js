@@ -130,7 +130,7 @@ HTMLActuator.prototype.message = function (won) {
 
   this.messageContainer.classList.add(type);
   this.messageContainer.getElementsByTagName("p")[0].textContent = message;
-  document.getElementsByClassName("game-over-thing")[0].style.display = "block";
+  document.getElementsByClassName("save-your-score")[0].style.display = "block";
 };
 
 HTMLActuator.prototype.clearMessage = function () {
