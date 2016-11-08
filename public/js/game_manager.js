@@ -240,17 +240,17 @@ $(document).ready(function(){
            }
            data = sortByKey(data, 'Score');
 
-           var everything = "<ol>";
-           var i =0;
+           var everything =" <table> <tr> <th>Position</th> <th>Name</th> <th>Score</th> </tr>";
+           var i =1;
 		
            for(var score in data) {
-                   if(i < 15){
+                   if(i < 16){
                        com = data[score];
-                       everything += "<li>Name: " + com.Name + ", Score: " + com.Score + "</li>";
+			       everything += "<tr> <td>"+ i +"</td> <td> " + com.Name + "</td> <td> " + com.Score + "</td>";
                        i++;
                    }
            }
-           everything += "</ol>";
+           everything += "</table>";
            $("#scores").html(everything);//scores 
            })
     }

@@ -1,0 +1,855 @@
+nohup: ignoring input
+Connected
+[0mGET / [36m304 [0m5.985 ms - -[0m
+[0mGET /style/main.css [36m304 [0m1.434 ms - -[0m
+[0mGET /js/bind_polyfill.js [36m304 [0m0.894 ms - -[0m
+[0mGET /js/classlist_polyfill.js [36m304 [0m1.311 ms - -[0m
+[0mGET /js/animframe_polyfill.js [36m304 [0m0.329 ms - -[0m
+[0mGET /js/keyboard_input_manager.js [36m304 [0m0.184 ms - -[0m
+[0mGET /style/fonts/clear-sans.css [33m404 [0m8.582 ms - 1683[0m
+[0mGET /js/html_actuator.js [36m304 [0m0.192 ms - -[0m
+[0mGET /js/grid.js [36m304 [0m0.461 ms - -[0m
+[0mGET /js/tile.js [36m304 [0m0.419 ms - -[0m
+[0mGET /js/local_storage_manager.js [36m304 [0m0.183 ms - -[0m
+[0mGET /js/game_manager.js [36m304 [0m0.182 ms - -[0m
+[0mGET /js/application.js [36m304 [0m0.495 ms - -[0m
+In the GET route
+[ { _id: 58220833ca32030a982ab97e,
+    Name: 'NEW1',
+    Score: 632,
+    __v: 0 },
+  { _id: 5822084bca32030a982ab97f,
+    Name: 'NEW2',
+    Score: 828,
+    __v: 0 },
+  { _id: 58220884ca32030a982ab980,
+    Name: 'NEW3',
+    Score: 936,
+    __v: 0 },
+  { _id: 58220899ca32030a982ab981,
+    Name: 'NEW4',
+    Score: 480,
+    __v: 0 },
+  { _id: 58220e0f790c300b4bf2dac8,
+    Name: 'Ken',
+    Score: 1112,
+    __v: 0 },
+  { _id: 58221069790c300b4bf2dac9,
+    Name: 'Ken',
+    Score: 12180,
+    __v: 0 },
+  { _id: 58221d320784600bc5cbb62f,
+    Name: 'Ken',
+    Score: 6648,
+    __v: 0 },
+  { _id: 58221e830784600bc5cbb630,
+    Name: 'Allen Liao',
+    Score: 13916,
+    __v: 0 },
+  { _id: 58221e9a0784600bc5cbb631,
+    Name: 'Ken',
+    Score: 6772,
+    __v: 0 } ]
+[0mGET /score [36m304 [0m32.082 ms - -[0m
+[0mGET / [32m200 [0m3.862 ms - 4737[0m
+[0mGET /style/main.css [32m200 [0m1.186 ms - 21135[0m
+[0mGET /js/bind_polyfill.js [32m200 [0m0.620 ms - 219[0m
+[0mGET /js/classlist_polyfill.js [32m200 [0m0.507 ms - 1795[0m
+[0mGET /js/animframe_polyfill.js [32m200 [0m0.629 ms - 890[0m
+[0mGET /js/keyboard_input_manager.js [32m200 [0m0.704 ms - 4020[0m
+[0mGET /js/html_actuator.js [32m200 [0m0.720 ms - 4124[0m
+[0mGET /js/grid.js [32m200 [0m0.467 ms - 2525[0m
+[0mGET /js/tile.js [32m200 [0m0.635 ms - 593[0m
+[0mGET /js/local_storage_manager.js [32m200 [0m0.475 ms - 1585[0m
+[0mGET /js/game_manager.js [32m200 [0m0.378 ms - 9356[0m
+[0mGET /js/application.js [32m200 [0m0.414 ms - 197[0m
+[0mGET /style/fonts/clear-sans.css [33m404 [0m2.866 ms - 1683[0m
+In the GET route
+[ { _id: 58220833ca32030a982ab97e,
+    Name: 'NEW1',
+    Score: 632,
+    __v: 0 },
+  { _id: 5822084bca32030a982ab97f,
+    Name: 'NEW2',
+    Score: 828,
+    __v: 0 },
+  { _id: 58220884ca32030a982ab980,
+    Name: 'NEW3',
+    Score: 936,
+    __v: 0 },
+  { _id: 58220899ca32030a982ab981,
+    Name: 'NEW4',
+    Score: 480,
+    __v: 0 },
+  { _id: 58220e0f790c300b4bf2dac8,
+    Name: 'Ken',
+    Score: 1112,
+    __v: 0 },
+  { _id: 58221069790c300b4bf2dac9,
+    Name: 'Ken',
+    Score: 12180,
+    __v: 0 },
+  { _id: 58221d320784600bc5cbb62f,
+    Name: 'Ken',
+    Score: 6648,
+    __v: 0 },
+  { _id: 58221e830784600bc5cbb630,
+    Name: 'Allen Liao',
+    Score: 13916,
+    __v: 0 },
+  { _id: 58221e9a0784600bc5cbb631,
+    Name: 'Ken',
+    Score: 6772,
+    __v: 0 } ]
+[0mGET /score [32m200 [0m5.747 ms - 631[0m
+[0mGET /favicon.ico [33m404 [0m2.033 ms - 1683[0m
+[0mGET / [36m304 [0m0.494 ms - -[0m
+[0mGET /js/bind_polyfill.js [36m304 [0m0.591 ms - -[0m
+[0mGET /js/classlist_polyfill.js [36m304 [0m0.549 ms - -[0m
+[0mGET /style/main.css [36m304 [0m0.189 ms - -[0m
+[0mGET /js/html_actuator.js [36m304 [0m2.443 ms - -[0m
+[0mGET /js/animframe_polyfill.js [36m304 [0m0.583 ms - -[0m
+[0mGET /js/keyboard_input_manager.js [36m304 [0m0.579 ms - -[0m
+[0mGET /js/tile.js [36m304 [0m0.481 ms - -[0m
+[0mGET /js/local_storage_manager.js [36m304 [0m0.462 ms - -[0m
+[0mGET /js/grid.js [36m304 [0m0.175 ms - -[0m
+[0mGET /js/game_manager.js [36m304 [0m0.186 ms - -[0m
+[0mGET /js/application.js [36m304 [0m0.186 ms - -[0m
+[0mGET /style/fonts/clear-sans.css [33m404 [0m1.704 ms - 1683[0m
+In the GET route
+[ { _id: 58220833ca32030a982ab97e,
+    Name: 'NEW1',
+    Score: 632,
+    __v: 0 },
+  { _id: 5822084bca32030a982ab97f,
+    Name: 'NEW2',
+    Score: 828,
+    __v: 0 },
+  { _id: 58220884ca32030a982ab980,
+    Name: 'NEW3',
+    Score: 936,
+    __v: 0 },
+  { _id: 58220899ca32030a982ab981,
+    Name: 'NEW4',
+    Score: 480,
+    __v: 0 },
+  { _id: 58220e0f790c300b4bf2dac8,
+    Name: 'Ken',
+    Score: 1112,
+    __v: 0 },
+  { _id: 58221069790c300b4bf2dac9,
+    Name: 'Ken',
+    Score: 12180,
+    __v: 0 },
+  { _id: 58221d320784600bc5cbb62f,
+    Name: 'Ken',
+    Score: 6648,
+    __v: 0 },
+  { _id: 58221e830784600bc5cbb630,
+    Name: 'Allen Liao',
+    Score: 13916,
+    __v: 0 },
+  { _id: 58221e9a0784600bc5cbb631,
+    Name: 'Ken',
+    Score: 6772,
+    __v: 0 } ]
+[0mGET /score [36m304 [0m4.630 ms - -[0m
+[0mGET / [36m304 [0m0.722 ms - -[0m
+[0mGET /style/main.css [36m304 [0m0.337 ms - -[0m
+[0mGET /js/bind_polyfill.js [36m304 [0m0.302 ms - -[0m
+[0mGET /js/classlist_polyfill.js [36m304 [0m0.200 ms - -[0m
+[0mGET /style/fonts/clear-sans.css [33m404 [0m1.650 ms - 1683[0m
+[0mGET /js/animframe_polyfill.js [36m304 [0m1.633 ms - -[0m
+[0mGET /js/keyboard_input_manager.js [36m304 [0m1.869 ms - -[0m
+[0mGET /js/html_actuator.js [36m304 [0m1.188 ms - -[0m
+[0mGET /js/grid.js [36m304 [0m1.016 ms - -[0m
+[0mGET /js/tile.js [36m304 [0m0.638 ms - -[0m
+[0mGET /js/local_storage_manager.js [36m304 [0m0.622 ms - -[0m
+[0mGET /js/game_manager.js [36m304 [0m0.575 ms - -[0m
+[0mGET /js/application.js [36m304 [0m0.414 ms - -[0m
+In the GET route
+[ { _id: 58220833ca32030a982ab97e,
+    Name: 'NEW1',
+    Score: 632,
+    __v: 0 },
+  { _id: 5822084bca32030a982ab97f,
+    Name: 'NEW2',
+    Score: 828,
+    __v: 0 },
+  { _id: 58220884ca32030a982ab980,
+    Name: 'NEW3',
+    Score: 936,
+    __v: 0 },
+  { _id: 58220899ca32030a982ab981,
+    Name: 'NEW4',
+    Score: 480,
+    __v: 0 },
+  { _id: 58220e0f790c300b4bf2dac8,
+    Name: 'Ken',
+    Score: 1112,
+    __v: 0 },
+  { _id: 58221069790c300b4bf2dac9,
+    Name: 'Ken',
+    Score: 12180,
+    __v: 0 },
+  { _id: 58221d320784600bc5cbb62f,
+    Name: 'Ken',
+    Score: 6648,
+    __v: 0 },
+  { _id: 58221e830784600bc5cbb630,
+    Name: 'Allen Liao',
+    Score: 13916,
+    __v: 0 },
+  { _id: 58221e9a0784600bc5cbb631,
+    Name: 'Ken',
+    Score: 6772,
+    __v: 0 } ]
+[0mGET /score [36m304 [0m3.999 ms - -[0m
+[0mGET / [36m304 [0m0.261 ms - -[0m
+[0mGET /style/main.css [36m304 [0m0.327 ms - -[0m
+[0mGET /js/classlist_polyfill.js [36m304 [0m0.987 ms - -[0m
+[0mGET /js/bind_polyfill.js [36m304 [0m0.952 ms - -[0m
+[0mGET /js/animframe_polyfill.js [36m304 [0m0.924 ms - -[0m
+[0mGET /js/keyboard_input_manager.js [36m304 [0m1.691 ms - -[0m
+[0mGET /js/html_actuator.js [36m304 [0m1.674 ms - -[0m
+[0mGET /js/tile.js [36m304 [0m2.558 ms - -[0m
+[0mGET /js/grid.js [36m304 [0m2.525 ms - -[0m
+[0mGET /js/game_manager.js [36m304 [0m1.917 ms - -[0m
+[0mGET /js/local_storage_manager.js [36m304 [0m1.060 ms - -[0m
+[0mGET /js/application.js [36m304 [0m1.273 ms - -[0m
+[0mGET /style/fonts/clear-sans.css [33m404 [0m0.710 ms - 1683[0m
+In the GET route
+[ { _id: 58220833ca32030a982ab97e,
+    Name: 'NEW1',
+    Score: 632,
+    __v: 0 },
+  { _id: 5822084bca32030a982ab97f,
+    Name: 'NEW2',
+    Score: 828,
+    __v: 0 },
+  { _id: 58220884ca32030a982ab980,
+    Name: 'NEW3',
+    Score: 936,
+    __v: 0 },
+  { _id: 58220899ca32030a982ab981,
+    Name: 'NEW4',
+    Score: 480,
+    __v: 0 },
+  { _id: 58220e0f790c300b4bf2dac8,
+    Name: 'Ken',
+    Score: 1112,
+    __v: 0 },
+  { _id: 58221069790c300b4bf2dac9,
+    Name: 'Ken',
+    Score: 12180,
+    __v: 0 },
+  { _id: 58221d320784600bc5cbb62f,
+    Name: 'Ken',
+    Score: 6648,
+    __v: 0 },
+  { _id: 58221e830784600bc5cbb630,
+    Name: 'Allen Liao',
+    Score: 13916,
+    __v: 0 },
+  { _id: 58221e9a0784600bc5cbb631,
+    Name: 'Ken',
+    Score: 6772,
+    __v: 0 } ]
+[0mGET /score [36m304 [0m3.918 ms - -[0m
+POST score route
+{ Name: 'Tsai', Score: 17864 }
+{ Name: 'Tsai', Score: 17864, _id: 582238673b32930c24d99ef2 }
+(node:3108) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+{ __v: 0,
+  Name: 'Tsai',
+  Score: 17864,
+  _id: 582238673b32930c24d99ef2 }
+[0mPOST /score [32m200 [0m33.758 ms - 2[0m
+In the GET route
+[ { _id: 58220833ca32030a982ab97e,
+    Name: 'NEW1',
+    Score: 632,
+    __v: 0 },
+  { _id: 5822084bca32030a982ab97f,
+    Name: 'NEW2',
+    Score: 828,
+    __v: 0 },
+  { _id: 58220884ca32030a982ab980,
+    Name: 'NEW3',
+    Score: 936,
+    __v: 0 },
+  { _id: 58220899ca32030a982ab981,
+    Name: 'NEW4',
+    Score: 480,
+    __v: 0 },
+  { _id: 58220e0f790c300b4bf2dac8,
+    Name: 'Ken',
+    Score: 1112,
+    __v: 0 },
+  { _id: 58221069790c300b4bf2dac9,
+    Name: 'Ken',
+    Score: 12180,
+    __v: 0 },
+  { _id: 58221d320784600bc5cbb62f,
+    Name: 'Ken',
+    Score: 6648,
+    __v: 0 },
+  { _id: 58221e830784600bc5cbb630,
+    Name: 'Allen Liao',
+    Score: 13916,
+    __v: 0 },
+  { _id: 58221e9a0784600bc5cbb631,
+    Name: 'Ken',
+    Score: 6772,
+    __v: 0 },
+  { _id: 582238673b32930c24d99ef2,
+    Name: 'Tsai',
+    Score: 17864,
+    __v: 0 } ]
+[0mGET /score [32m200 [0m5.252 ms - 702[0m
+[0mGET / [36m304 [0m0.296 ms - -[0m
+[0mGET /style/main.css [36m304 [0m0.650 ms - -[0m
+[0mGET /js/bind_polyfill.js [36m304 [0m0.244 ms - -[0m
+[0mGET /js/classlist_polyfill.js [36m304 [0m0.277 ms - -[0m
+[0mGET /js/animframe_polyfill.js [36m304 [0m0.751 ms - -[0m
+[0mGET /js/local_storage_manager.js [36m304 [0m0.388 ms - -[0m
+[0mGET /js/keyboard_input_manager.js [36m304 [0m1.109 ms - -[0m
+[0mGET /js/html_actuator.js [36m304 [0m0.391 ms - -[0m
+[0mGET /style/fonts/clear-sans.css [33m404 [0m0.745 ms - 1683[0m
+[0mGET /js/game_manager.js [36m304 [0m0.299 ms - -[0m
+[0mGET /js/tile.js [36m304 [0m0.186 ms - -[0m
+[0mGET /js/grid.js [36m304 [0m0.172 ms - -[0m
+[0mGET /js/application.js [36m304 [0m0.180 ms - -[0m
+In the GET route
+[ { _id: 58220833ca32030a982ab97e,
+    Name: 'NEW1',
+    Score: 632,
+    __v: 0 },
+  { _id: 5822084bca32030a982ab97f,
+    Name: 'NEW2',
+    Score: 828,
+    __v: 0 },
+  { _id: 58220884ca32030a982ab980,
+    Name: 'NEW3',
+    Score: 936,
+    __v: 0 },
+  { _id: 58220899ca32030a982ab981,
+    Name: 'NEW4',
+    Score: 480,
+    __v: 0 },
+  { _id: 58220e0f790c300b4bf2dac8,
+    Name: 'Ken',
+    Score: 1112,
+    __v: 0 },
+  { _id: 58221069790c300b4bf2dac9,
+    Name: 'Ken',
+    Score: 12180,
+    __v: 0 },
+  { _id: 58221d320784600bc5cbb62f,
+    Name: 'Ken',
+    Score: 6648,
+    __v: 0 },
+  { _id: 58221e830784600bc5cbb630,
+    Name: 'Allen Liao',
+    Score: 13916,
+    __v: 0 },
+  { _id: 58221e9a0784600bc5cbb631,
+    Name: 'Ken',
+    Score: 6772,
+    __v: 0 },
+  { _id: 582238673b32930c24d99ef2,
+    Name: 'Tsai',
+    Score: 17864,
+    __v: 0 } ]
+[0mGET /score [32m200 [0m4.075 ms - 702[0m
+[0mGET / [36m304 [0m4.119 ms - -[0m
+[0mGET /style/main.css [36m304 [0m0.352 ms - -[0m
+[0mGET /js/bind_polyfill.js [36m304 [0m0.189 ms - -[0m
+[0mGET /js/classlist_polyfill.js [36m304 [0m1.658 ms - -[0m
+[0mGET /js/animframe_polyfill.js [36m304 [0m0.790 ms - -[0m
+[0mGET /js/keyboard_input_manager.js [36m304 [0m0.739 ms - -[0m
+[0mGET /js/html_actuator.js [36m304 [0m0.661 ms - -[0m
+[0mGET /js/grid.js [36m304 [0m1.158 ms - -[0m
+[0mGET /js/tile.js [36m304 [0m0.191 ms - -[0m
+[0mGET /js/local_storage_manager.js [36m304 [0m0.175 ms - -[0m
+[0mGET /js/application.js [36m304 [0m0.369 ms - -[0m
+[0mGET /js/game_manager.js [36m304 [0m0.328 ms - -[0m
+[0mGET /style/fonts/clear-sans.css [33m404 [0m1.370 ms - 1683[0m
+In the GET route
+[ { _id: 58220833ca32030a982ab97e,
+    Name: 'NEW1',
+    Score: 632,
+    __v: 0 },
+  { _id: 5822084bca32030a982ab97f,
+    Name: 'NEW2',
+    Score: 828,
+    __v: 0 },
+  { _id: 58220884ca32030a982ab980,
+    Name: 'NEW3',
+    Score: 936,
+    __v: 0 },
+  { _id: 58220899ca32030a982ab981,
+    Name: 'NEW4',
+    Score: 480,
+    __v: 0 },
+  { _id: 58220e0f790c300b4bf2dac8,
+    Name: 'Ken',
+    Score: 1112,
+    __v: 0 },
+  { _id: 58221069790c300b4bf2dac9,
+    Name: 'Ken',
+    Score: 12180,
+    __v: 0 },
+  { _id: 58221d320784600bc5cbb62f,
+    Name: 'Ken',
+    Score: 6648,
+    __v: 0 },
+  { _id: 58221e830784600bc5cbb630,
+    Name: 'Allen Liao',
+    Score: 13916,
+    __v: 0 },
+  { _id: 58221e9a0784600bc5cbb631,
+    Name: 'Ken',
+    Score: 6772,
+    __v: 0 },
+  { _id: 582238673b32930c24d99ef2,
+    Name: 'Tsai',
+    Score: 17864,
+    __v: 0 } ]
+[0mGET /score [32m200 [0m2.975 ms - 702[0m
+[0mGET / [36m304 [0m0.270 ms - -[0m
+[0mGET /js/bind_polyfill.js [36m304 [0m0.298 ms - -[0m
+[0mGET /js/animframe_polyfill.js [36m304 [0m0.173 ms - -[0m
+[0mGET /style/main.css [36m304 [0m0.416 ms - -[0m
+[0mGET /js/classlist_polyfill.js [36m304 [0m0.363 ms - -[0m
+[0mGET /js/html_actuator.js [36m304 [0m0.761 ms - -[0m
+[0mGET /js/keyboard_input_manager.js [36m304 [0m0.739 ms - -[0m
+[0mGET /js/application.js [36m304 [0m0.418 ms - -[0m
+[0mGET /js/game_manager.js [32m200 [0m0.938 ms - 9404[0m
+[0mGET /js/tile.js [36m304 [0m0.379 ms - -[0m
+[0mGET /js/grid.js [36m304 [0m0.330 ms - -[0m
+[0mGET /js/local_storage_manager.js [36m304 [0m0.512 ms - -[0m
+[0mGET /style/fonts/clear-sans.css [33m404 [0m0.712 ms - 1683[0m
+In the GET route
+[ { _id: 58220833ca32030a982ab97e,
+    Name: 'NEW1',
+    Score: 632,
+    __v: 0 },
+  { _id: 5822084bca32030a982ab97f,
+    Name: 'NEW2',
+    Score: 828,
+    __v: 0 },
+  { _id: 58220884ca32030a982ab980,
+    Name: 'NEW3',
+    Score: 936,
+    __v: 0 },
+  { _id: 58220899ca32030a982ab981,
+    Name: 'NEW4',
+    Score: 480,
+    __v: 0 },
+  { _id: 58220e0f790c300b4bf2dac8,
+    Name: 'Ken',
+    Score: 1112,
+    __v: 0 },
+  { _id: 58221069790c300b4bf2dac9,
+    Name: 'Ken',
+    Score: 12180,
+    __v: 0 },
+  { _id: 58221d320784600bc5cbb62f,
+    Name: 'Ken',
+    Score: 6648,
+    __v: 0 },
+  { _id: 58221e830784600bc5cbb630,
+    Name: 'Allen Liao',
+    Score: 13916,
+    __v: 0 },
+  { _id: 58221e9a0784600bc5cbb631,
+    Name: 'Ken',
+    Score: 6772,
+    __v: 0 },
+  { _id: 582238673b32930c24d99ef2,
+    Name: 'Tsai',
+    Score: 17864,
+    __v: 0 } ]
+[0mGET /score [36m304 [0m5.987 ms - -[0m
+[0mGET / [36m304 [0m0.279 ms - -[0m
+[0mGET /style/main.css [36m304 [0m0.298 ms - -[0m
+[0mGET /js/bind_polyfill.js [36m304 [0m1.770 ms - -[0m
+[0mGET /js/classlist_polyfill.js [36m304 [0m2.287 ms - -[0m
+[0mGET /js/animframe_polyfill.js [36m304 [0m1.101 ms - -[0m
+[0mGET /js/keyboard_input_manager.js [36m304 [0m0.396 ms - -[0m
+[0mGET /js/html_actuator.js [36m304 [0m0.357 ms - -[0m
+[0mGET /js/grid.js [36m304 [0m0.265 ms - -[0m
+[0mGET /js/tile.js [36m304 [0m0.417 ms - -[0m
+[0mGET /style/fonts/clear-sans.css [33m404 [0m0.927 ms - 1683[0m
+[0mGET /js/local_storage_manager.js [36m304 [0m0.471 ms - -[0m
+[0mGET /js/application.js [36m304 [0m0.368 ms - -[0m
+[0mGET /js/game_manager.js [32m200 [0m0.341 ms - 9423[0m
+In the GET route
+[ { _id: 58220833ca32030a982ab97e,
+    Name: 'NEW1',
+    Score: 632,
+    __v: 0 },
+  { _id: 5822084bca32030a982ab97f,
+    Name: 'NEW2',
+    Score: 828,
+    __v: 0 },
+  { _id: 58220884ca32030a982ab980,
+    Name: 'NEW3',
+    Score: 936,
+    __v: 0 },
+  { _id: 58220899ca32030a982ab981,
+    Name: 'NEW4',
+    Score: 480,
+    __v: 0 },
+  { _id: 58220e0f790c300b4bf2dac8,
+    Name: 'Ken',
+    Score: 1112,
+    __v: 0 },
+  { _id: 58221069790c300b4bf2dac9,
+    Name: 'Ken',
+    Score: 12180,
+    __v: 0 },
+  { _id: 58221d320784600bc5cbb62f,
+    Name: 'Ken',
+    Score: 6648,
+    __v: 0 },
+  { _id: 58221e830784600bc5cbb630,
+    Name: 'Allen Liao',
+    Score: 13916,
+    __v: 0 },
+  { _id: 58221e9a0784600bc5cbb631,
+    Name: 'Ken',
+    Score: 6772,
+    __v: 0 },
+  { _id: 582238673b32930c24d99ef2,
+    Name: 'Tsai',
+    Score: 17864,
+    __v: 0 } ]
+[0mGET /score [36m304 [0m4.283 ms - -[0m
+[0mGET / [36m304 [0m0.269 ms - -[0m
+[0mGET /style/main.css [36m304 [0m1.497 ms - -[0m
+[0mGET /js/animframe_polyfill.js [36m304 [0m6.520 ms - -[0m
+[0mGET /js/bind_polyfill.js [36m304 [0m7.997 ms - -[0m
+[0mGET /js/classlist_polyfill.js [36m304 [0m6.811 ms - -[0m
+[0mGET /js/keyboard_input_manager.js [36m304 [0m6.778 ms - -[0m
+[0mGET /js/html_actuator.js [36m304 [0m6.738 ms - -[0m
+[0mGET /js/grid.js [36m304 [0m0.620 ms - -[0m
+[0mGET /style/fonts/clear-sans.css [33m404 [0m1.022 ms - 1683[0m
+[0mGET /js/tile.js [36m304 [0m0.204 ms - -[0m
+[0mGET /js/local_storage_manager.js [36m304 [0m0.180 ms - -[0m
+[0mGET /js/application.js [36m304 [0m0.667 ms - -[0m
+[0mGET /js/game_manager.js [32m200 [0m1.059 ms - 9426[0m
+In the GET route
+[ { _id: 58220833ca32030a982ab97e,
+    Name: 'NEW1',
+    Score: 632,
+    __v: 0 },
+  { _id: 5822084bca32030a982ab97f,
+    Name: 'NEW2',
+    Score: 828,
+    __v: 0 },
+  { _id: 58220884ca32030a982ab980,
+    Name: 'NEW3',
+    Score: 936,
+    __v: 0 },
+  { _id: 58220899ca32030a982ab981,
+    Name: 'NEW4',
+    Score: 480,
+    __v: 0 },
+  { _id: 58220e0f790c300b4bf2dac8,
+    Name: 'Ken',
+    Score: 1112,
+    __v: 0 },
+  { _id: 58221069790c300b4bf2dac9,
+    Name: 'Ken',
+    Score: 12180,
+    __v: 0 },
+  { _id: 58221d320784600bc5cbb62f,
+    Name: 'Ken',
+    Score: 6648,
+    __v: 0 },
+  { _id: 58221e830784600bc5cbb630,
+    Name: 'Allen Liao',
+    Score: 13916,
+    __v: 0 },
+  { _id: 58221e9a0784600bc5cbb631,
+    Name: 'Ken',
+    Score: 6772,
+    __v: 0 },
+  { _id: 582238673b32930c24d99ef2,
+    Name: 'Tsai',
+    Score: 17864,
+    __v: 0 } ]
+[0mGET /score [36m304 [0m6.106 ms - -[0m
+[0mGET / [36m304 [0m0.262 ms - -[0m
+[0mGET /style/main.css [32m200 [0m0.507 ms - 21219[0m
+[0mGET /js/bind_polyfill.js [36m304 [0m0.402 ms - -[0m
+[0mGET /js/classlist_polyfill.js [36m304 [0m0.337 ms - -[0m
+[0mGET /js/animframe_polyfill.js [36m304 [0m0.486 ms - -[0m
+[0mGET /js/keyboard_input_manager.js [36m304 [0m0.408 ms - -[0m
+[0mGET /js/html_actuator.js [36m304 [0m0.406 ms - -[0m
+[0mGET /js/grid.js [36m304 [0m0.477 ms - -[0m
+[0mGET /js/tile.js [36m304 [0m0.417 ms - -[0m
+[0mGET /js/local_storage_manager.js [36m304 [0m0.549 ms - -[0m
+[0mGET /js/game_manager.js [36m304 [0m0.515 ms - -[0m
+[0mGET /js/application.js [36m304 [0m2.177 ms - -[0m
+[0mGET /style/fonts/clear-sans.css [33m404 [0m0.797 ms - 1683[0m
+In the GET route
+[ { _id: 58220833ca32030a982ab97e,
+    Name: 'NEW1',
+    Score: 632,
+    __v: 0 },
+  { _id: 5822084bca32030a982ab97f,
+    Name: 'NEW2',
+    Score: 828,
+    __v: 0 },
+  { _id: 58220884ca32030a982ab980,
+    Name: 'NEW3',
+    Score: 936,
+    __v: 0 },
+  { _id: 58220899ca32030a982ab981,
+    Name: 'NEW4',
+    Score: 480,
+    __v: 0 },
+  { _id: 58220e0f790c300b4bf2dac8,
+    Name: 'Ken',
+    Score: 1112,
+    __v: 0 },
+  { _id: 58221069790c300b4bf2dac9,
+    Name: 'Ken',
+    Score: 12180,
+    __v: 0 },
+  { _id: 58221d320784600bc5cbb62f,
+    Name: 'Ken',
+    Score: 6648,
+    __v: 0 },
+  { _id: 58221e830784600bc5cbb630,
+    Name: 'Allen Liao',
+    Score: 13916,
+    __v: 0 },
+  { _id: 58221e9a0784600bc5cbb631,
+    Name: 'Ken',
+    Score: 6772,
+    __v: 0 },
+  { _id: 582238673b32930c24d99ef2,
+    Name: 'Tsai',
+    Score: 17864,
+    __v: 0 } ]
+[0mGET /score [36m304 [0m3.795 ms - -[0m
+POST score route
+{ Name: 'NO', Score: 1604 }
+{ Name: 'NO', Score: 1604, _id: 582258753b32930c24d99ef3 }
+{ __v: 0, Name: 'NO', Score: 1604, _id: 582258753b32930c24d99ef3 }
+[0mPOST /score [32m200 [0m4.613 ms - 2[0m
+In the GET route
+[ { _id: 58220833ca32030a982ab97e,
+    Name: 'NEW1',
+    Score: 632,
+    __v: 0 },
+  { _id: 5822084bca32030a982ab97f,
+    Name: 'NEW2',
+    Score: 828,
+    __v: 0 },
+  { _id: 58220884ca32030a982ab980,
+    Name: 'NEW3',
+    Score: 936,
+    __v: 0 },
+  { _id: 58220899ca32030a982ab981,
+    Name: 'NEW4',
+    Score: 480,
+    __v: 0 },
+  { _id: 58220e0f790c300b4bf2dac8,
+    Name: 'Ken',
+    Score: 1112,
+    __v: 0 },
+  { _id: 58221069790c300b4bf2dac9,
+    Name: 'Ken',
+    Score: 12180,
+    __v: 0 },
+  { _id: 58221d320784600bc5cbb62f,
+    Name: 'Ken',
+    Score: 6648,
+    __v: 0 },
+  { _id: 58221e830784600bc5cbb630,
+    Name: 'Allen Liao',
+    Score: 13916,
+    __v: 0 },
+  { _id: 58221e9a0784600bc5cbb631,
+    Name: 'Ken',
+    Score: 6772,
+    __v: 0 },
+  { _id: 582238673b32930c24d99ef2,
+    Name: 'Tsai',
+    Score: 17864,
+    __v: 0 },
+  { _id: 582258753b32930c24d99ef3, Name: 'NO', Score: 1604, __v: 0 } ]
+[0mGET /score [32m200 [0m4.754 ms - 770[0m
+[0mGET / [32m200 [0m0.453 ms - 4753[0m
+[0mGET /style/main.css [32m200 [0m0.482 ms - 21202[0m
+[0mGET /js/bind_polyfill.js [36m304 [0m0.282 ms - -[0m
+[0mGET /js/classlist_polyfill.js [36m304 [0m0.163 ms - -[0m
+[0mGET /js/animframe_polyfill.js [36m304 [0m0.341 ms - -[0m
+[0mGET /js/keyboard_input_manager.js [36m304 [0m0.298 ms - -[0m
+[0mGET /js/html_actuator.js [36m304 [0m0.170 ms - -[0m
+[0mGET /js/grid.js [36m304 [0m0.266 ms - -[0m
+[0mGET /js/tile.js [36m304 [0m0.163 ms - -[0m
+[0mGET /js/local_storage_manager.js [36m304 [0m0.342 ms - -[0m
+[0mGET /js/game_manager.js [36m304 [0m0.339 ms - -[0m
+[0mGET /js/application.js [36m304 [0m0.771 ms - -[0m
+[0mGET /style/fonts/clear-sans.css [33m404 [0m1.341 ms - 1683[0m
+In the GET route
+[ { _id: 58220833ca32030a982ab97e,
+    Name: 'NEW1',
+    Score: 632,
+    __v: 0 },
+  { _id: 5822084bca32030a982ab97f,
+    Name: 'NEW2',
+    Score: 828,
+    __v: 0 },
+  { _id: 58220884ca32030a982ab980,
+    Name: 'NEW3',
+    Score: 936,
+    __v: 0 },
+  { _id: 58220899ca32030a982ab981,
+    Name: 'NEW4',
+    Score: 480,
+    __v: 0 },
+  { _id: 58220e0f790c300b4bf2dac8,
+    Name: 'Ken',
+    Score: 1112,
+    __v: 0 },
+  { _id: 58221069790c300b4bf2dac9,
+    Name: 'Ken',
+    Score: 12180,
+    __v: 0 },
+  { _id: 58221d320784600bc5cbb62f,
+    Name: 'Ken',
+    Score: 6648,
+    __v: 0 },
+  { _id: 58221e830784600bc5cbb630,
+    Name: 'Allen Liao',
+    Score: 13916,
+    __v: 0 },
+  { _id: 58221e9a0784600bc5cbb631,
+    Name: 'Ken',
+    Score: 6772,
+    __v: 0 },
+  { _id: 582238673b32930c24d99ef2,
+    Name: 'Tsai',
+    Score: 17864,
+    __v: 0 },
+  { _id: 582258753b32930c24d99ef3, Name: 'NO', Score: 1604, __v: 0 } ]
+[0mGET /score [36m304 [0m7.503 ms - -[0m
+[0mGET / [36m304 [0m0.287 ms - -[0m
+[0mGET /style/main.css [32m200 [0m0.433 ms - 21210[0m
+[0mGET /js/bind_polyfill.js [36m304 [0m0.213 ms - -[0m
+[0mGET /js/classlist_polyfill.js [36m304 [0m0.777 ms - -[0m
+[0mGET /js/keyboard_input_manager.js [36m304 [0m0.377 ms - -[0m
+[0mGET /js/animframe_polyfill.js [36m304 [0m0.365 ms - -[0m
+[0mGET /js/html_actuator.js [36m304 [0m1.211 ms - -[0m
+[0mGET /js/grid.js [36m304 [0m0.205 ms - -[0m
+[0mGET /js/tile.js [36m304 [0m0.198 ms - -[0m
+[0mGET /js/local_storage_manager.js [36m304 [0m0.168 ms - -[0m
+[0mGET /js/game_manager.js [36m304 [0m0.198 ms - -[0m
+[0mGET /js/application.js [36m304 [0m0.166 ms - -[0m
+[0mGET /style/fonts/clear-sans.css [33m404 [0m1.042 ms - 1683[0m
+In the GET route
+[ { _id: 58220833ca32030a982ab97e,
+    Name: 'NEW1',
+    Score: 632,
+    __v: 0 },
+  { _id: 5822084bca32030a982ab97f,
+    Name: 'NEW2',
+    Score: 828,
+    __v: 0 },
+  { _id: 58220884ca32030a982ab980,
+    Name: 'NEW3',
+    Score: 936,
+    __v: 0 },
+  { _id: 58220899ca32030a982ab981,
+    Name: 'NEW4',
+    Score: 480,
+    __v: 0 },
+  { _id: 58220e0f790c300b4bf2dac8,
+    Name: 'Ken',
+    Score: 1112,
+    __v: 0 },
+  { _id: 58221069790c300b4bf2dac9,
+    Name: 'Ken',
+    Score: 12180,
+    __v: 0 },
+  { _id: 58221d320784600bc5cbb62f,
+    Name: 'Ken',
+    Score: 6648,
+    __v: 0 },
+  { _id: 58221e830784600bc5cbb630,
+    Name: 'Allen Liao',
+    Score: 13916,
+    __v: 0 },
+  { _id: 58221e9a0784600bc5cbb631,
+    Name: 'Ken',
+    Score: 6772,
+    __v: 0 },
+  { _id: 582238673b32930c24d99ef2,
+    Name: 'Tsai',
+    Score: 17864,
+    __v: 0 },
+  { _id: 582258753b32930c24d99ef3, Name: 'NO', Score: 1604, __v: 0 } ]
+[0mGET /score [32m200 [0m3.399 ms - 770[0m
+[0mGET / [36m304 [0m0.307 ms - -[0m
+[0mGET /js/bind_polyfill.js [36m304 [0m0.279 ms - -[0m
+[0mGET /style/main.css [32m200 [0m0.380 ms - 21138[0m
+[0mGET /js/html_actuator.js [36m304 [0m0.554 ms - -[0m
+[0mGET /js/classlist_polyfill.js [36m304 [0m0.517 ms - -[0m
+[0mGET /js/animframe_polyfill.js [36m304 [0m0.491 ms - -[0m
+[0mGET /js/keyboard_input_manager.js [36m304 [0m0.159 ms - -[0m
+[0mGET /js/grid.js [36m304 [0m0.230 ms - -[0m
+[0mGET /js/tile.js [36m304 [0m0.198 ms - -[0m
+[0mGET /js/local_storage_manager.js [36m304 [0m0.582 ms - -[0m
+[0mGET /js/game_manager.js [36m304 [0m0.536 ms - -[0m
+[0mGET /js/application.js [36m304 [0m0.510 ms - -[0m
+[0mGET /style/fonts/clear-sans.css [33m404 [0m0.835 ms - 1683[0m
+In the GET route
+[ { _id: 58220833ca32030a982ab97e,
+    Name: 'NEW1',
+    Score: 632,
+    __v: 0 },
+  { _id: 5822084bca32030a982ab97f,
+    Name: 'NEW2',
+    Score: 828,
+    __v: 0 },
+  { _id: 58220884ca32030a982ab980,
+    Name: 'NEW3',
+    Score: 936,
+    __v: 0 },
+  { _id: 58220899ca32030a982ab981,
+    Name: 'NEW4',
+    Score: 480,
+    __v: 0 },
+  { _id: 58220e0f790c300b4bf2dac8,
+    Name: 'Ken',
+    Score: 1112,
+    __v: 0 },
+  { _id: 58221069790c300b4bf2dac9,
+    Name: 'Ken',
+    Score: 12180,
+    __v: 0 },
+  { _id: 58221d320784600bc5cbb62f,
+    Name: 'Ken',
+    Score: 6648,
+    __v: 0 },
+  { _id: 58221e830784600bc5cbb630,
+    Name: 'Allen Liao',
+    Score: 13916,
+    __v: 0 },
+  { _id: 58221e9a0784600bc5cbb631,
+    Name: 'Ken',
+    Score: 6772,
+    __v: 0 },
+  { _id: 582238673b32930c24d99ef2,
+    Name: 'Tsai',
+    Score: 17864,
+    __v: 0 },
+  { _id: 582258753b32930c24d99ef3, Name: 'NO', Score: 1604, __v: 0 } ]
+[0mGET /score [36m304 [0m3.236 ms - -[0m
