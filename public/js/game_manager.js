@@ -197,7 +197,7 @@ GameManager.prototype.move = function (direction) {
 
 var alreadyClicked = false;
 
-  //GET FUNCTION
+ //GET FUNCTION
 $(document).ready(function(){
     $("#save-button").click(function(){
 
@@ -223,37 +223,46 @@ $(document).ready(function(){
 
     });
 
+
+
+//POST FUNCTION
     function showScores() {
-    //CALL POST FUNCTION
           $.getJSON('score', function(data) {
                 console.log(data);
 
-                var everything = "<ol>";
-                for(var score in data) {
-                  // com = data[score];
+	  //sorting
+          function sortByKey (array, key){
+               return array.sort(function(a, b){
+                   var x = a[key];
+                   var y = b[key];
+                   return ((y < x) ? -1 : ((y > x) ? 1 : 0));
+               });
+           }
+           data = sortByKey(data, 'Score');
 
-  // sort by value
-       data.sort(function (a, b) {
-    if (a.value > b.value) {
-      return 1;
+           var everything = "<ol>";
+           var i =0;
+		
+           for(var score in data) {
+                   if(i < 15){
+                       com = data[score];
+                       everything += "<li>Name: " + com.Name + ", Score: " + com.Score + "</li>";
+                       i++;
+                   }
+           }
+           everything += "</ol>";
+           $("#scores").html(everything);//scores 
+           })
     }
-    if (a.value < b.value) {
-      return -1;
-    }
-    // a must be equal to b
-    return 0;
-       });
-       com = data[score];
-                   everything += "<li> Name: " + com.Name + ",  Score: " + com.Score + "</li>";
-                }
-                everything += "</ol>";
-                $("#scores").html(everything);//scores
-          })
-    }
-
     showScores();
-
 });
+
+
+
+
+
+
+
 
 
 

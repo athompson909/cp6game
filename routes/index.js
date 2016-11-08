@@ -52,11 +52,9 @@ router.get('/score', function(req, res, next) {
                 else {
                         console.log(scoreList); //Otherwise console log the comments you found
                         res.json(scoreList);//Then send them
-
+			//db.dropDatabase({});
                 }
         })
 });
-
-
 
 
