@@ -240,11 +240,11 @@ $(document).ready(function(){
            }
            data = sortByKey(data, 'Score');
 
-           var everything =" <table> <tr> <th>Position</th> <th>Name</th> <th>Score</th> </tr>";
+           var everything =" <table> <tr> <th>Position</th><th>--- Name ---</th><th>Score</th></tr>";
            var i =1;
 		
            for(var score in data) {
-                   if(i < 16){
+                   if(i < 26){
                        com = data[score];
 			       everything += "<tr> <td>"+ i +"</td> <td> " + com.Name + "</td> <td> " + com.Score + "</td>";
                        i++;
