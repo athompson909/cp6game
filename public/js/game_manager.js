@@ -200,7 +200,7 @@ var alreadyClicked = false;
  //GET FUNCTION
 $(document).ready(function(){
  
-   $(".retry-button")[0].click(function(){
+   $(".restart-button")[0].click(function(){
 	$(".save-your-score")[0].style.display = "none";
    });
 
