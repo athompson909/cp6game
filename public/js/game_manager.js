@@ -199,7 +199,12 @@ var alreadyClicked = false;
 
  //GET FUNCTION
 $(document).ready(function(){
-    $("#save-button").click(function(){
+ 
+   $(".retry-button")[0].click(function(){
+	$(".save-your-score")[0].style.display = "none";
+   });
+
+   $("#save-button").click(function(){
 
       console.log("save button called");
       if(!alreadyClicked) {
@@ -219,7 +224,8 @@ $(document).ready(function(){
         })
         showScores();
         alreadyClicked = true;
-      }
+	$(".save-your-score")[0].style.display = "none"; 
+     }
 
     });
 
